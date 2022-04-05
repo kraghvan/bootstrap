@@ -1,0 +1,97 @@
+body {
+       background-color: #EADBCC;
+       font-family: 'Open Sans Regular', 'Open Sans Bold', 'Nunito Regular', 'Open Sans Italic';
+}
+@font-face {
+  font-family: 'Open Sans Regular', 'Open Sans Bold', 'Nunito Regular', 'Open Sans Italic';
+  src: url('./fonts/OpenSans-Regular.ttf');
+  src: url('./fonts/OpenSans-Bold.ttf');
+  src: url('./fonts/OpenSans-Italic.ttf');
+  src: url('./fonts/Nunito-Regular.ttf');
+}
+.bx1 {
+    height: 541px;
+    width: 593px;
+    border-radius: 3px;
+    background-color: #FFFFFF;
+    box-shadow: 0 1px 2px 0 rgba(0,0,0,0.2);
+    margin:138px auto 138px;
+    
+}
+.bx2 {
+    margin: 0 101px;
+    padding-top: 101px;
+}
+.box{
+    float: right;
+}
+.logo{
+    height: 96px;
+    width: 105px;
+}
+.login {
+    height: 27px;
+  width: auto;
+  color: #000000;
+  font-family: "Open Sans Bold";
+  font-size: 20px;
+  font-weight: bold;
+  letter-spacing: 0;
+  line-height: 27px;
+  text-align: left;
+  margin:0;
+}
+#login-caption {
+    height: 17px;
+  width: auto;
+  color: #505D6F;
+  font-family: "Open Sans Italic";
+  font-size: 14px;
+  font-style: italic;
+  letter-spacing: 0;
+  line-height: 17px;
+  text-align: left;
+  margin: 0 0 68px;
+}
+.form-label {
+    height: 17px;
+  width: auto;
+  color: #373A3C;
+  font-family: "Open Sans Regular";
+  font-size: 14px;
+  letter-spacing: 0;
+  line-height: 49.5px;
+  vertical-align: middle;
+}
+.input {
+    height: 48px;
+    width: 389px;
+    border-radius: 2px;
+    border: none;
+    border-bottom: 2px solid #CED4DA;
+    margin: 0;
+}
+::placeholder {
+    height: 19px;
+  width: auto;
+  color: rgba(3E 40 42 0.2);
+  font-family: "Open Sans Regular";
+  font-size: 14px;
+  letter-spacing: 0;
+  line-height: 19px;
+  margin-bottom: 0;
+}
+#submit {
+    height: 48px;
+    width: 389px;
+    border-radius: 2px;
+    background-color: #404040;
+    color: #FFFFFF;
+    box-shadow: 0 4px 10px 0 rgba(64,64,64,0.2);
+    margin-top: 58px;
+    font-family: "Open Sans Bold";
+    font-size: 14px;
+    font-weight: bold;
+    letter-spacing: 0;
+    line-height: 19px;
+}
